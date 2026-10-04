@@ -13,8 +13,11 @@ Toutes les données sont fictives ou publiques.
 
 ## Présentations à ouvrir dans le navigateur
 
+Cliquez sur l'adresse : la présentation s'ouvre dans le navigateur. Bouton plein écran en bas à droite, puis flèches du clavier pour avancer.
+
 | Présentation | Adresse | Utilisée dans |
 | --- | --- | --- |
 | Jev, l'IA qui décide | https://lionelmyszka2.github.io/supports-fichiers/films/jev-l-ia-qui-decide.html | JEV : une IA qui décide au lieu de rédiger |
 
 Lionel Myszka, https://lumiere-ia.com
+
