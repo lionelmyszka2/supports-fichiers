@@ -27,7 +27,9 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Outil | Adresse | Utilisé dans |
 | --- | --- | --- |
 | Vérificateur de code typo | https://lionelmyszka2.github.io/supports-fichiers/outils/verificateur-code-typo.html | Coder un vérificateur de code typo (Créer une application sur mesure avec l'IA) |
+| Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
