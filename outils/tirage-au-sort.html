@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tirage au sort</title>
+<meta name="description" content="Outil d'exemple : coller une liste de prénoms, tirer un prénom au hasard, le retirer et continuer. Rien ne quitte votre navigateur.">
+<style>
+  :root { --ink:#111; --paper:#fff; --muted:#555; --soft:#f2f2f2; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 1100px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { border-bottom: 2px solid var(--ink); padding-bottom: 12px; margin-bottom: 24px; display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap; }
+  h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1; margin: 0; letter-spacing: -.02em; }
+  #compteur { font-size: 18px; font-weight: 600; }
+  .grille { display:grid; grid-template-columns: 320px 1fr; gap: 28px; }
+  @media (max-width: 760px) { .grille { grid-template-columns: 1fr; } }
+  label { display:block; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px; }
+  textarea { width:100%; min-height: 300px; padding: 12px; font: inherit; font-size: 17px; color:var(--ink); background:var(--paper); border:1px solid var(--ink); border-radius: 0; resize: vertical; }
+  .aide { color: var(--muted); font-size: 14px; margin: 8px 0 0; }
+  .scene { border: 1px solid var(--ink); min-height: 300px; display:flex; flex-direction:column; align-items:center; justify-content:center; padding: 24px; text-align:center; }
+  #nom { font-size: clamp(44px, 10vw, 104px); font-weight: 800; line-height: 1.05; letter-spacing: -.03em; word-break: break-word; min-height: 1.1em; }
+  #nom.defile { color: var(--muted); }
+  #message { color: var(--muted); margin-top: 12px; min-height: 1.5em; }
+  .boutons { display:flex; gap: 12px; flex-wrap: wrap; margin-top: 20px; justify-content:center; }
+  button { font: inherit; font-size: 17px; font-weight: 600; line-height: 1; padding: 14px 22px; border: 2px solid var(--ink); background: var(--ink); color: var(--paper); cursor: pointer; border-radius: 0; }
+  button.secondaire { background: var(--paper); color: var(--ink); }
+  button:disabled { opacity: .35; cursor: default; }
+  button:focus-visible, textarea:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  #tires { margin-top: 20px; font-size: 15px; color: var(--muted); }
+  footer { margin-top: 32px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Tirage au sort</h1>
+    <div id="compteur" aria-live="polite">0 prénom restant</div>
+  </header>
+  <div class="grille">
+    <div>
+      <label for="liste">Les prénoms, un par ligne</label>
+      <textarea id="liste" spellcheck="false" placeholder="Anne&#10;Bruno&#10;Chloé&#10;…"></textarea>
+      <p class="aide"><button id="exemple" type="button" class="secondaire" style="padding:8px 12px;font-size:14px">Charger une liste d'exemple</button></p>
+      <p class="aide">Les lignes vides sont ignorées. La liste reste enregistrée dans ce navigateur, même si vous rechargez la page.</p>
+    </div>
+    <div>
+      <div class="scene">
+        <div id="nom" aria-live="assertive"></div>
+        <div id="message"></div>
+        <div class="boutons">
+          <button id="tirer" type="button">Tirer au sort</button>
+          <button id="retirer" type="button" class="secondaire" disabled>Retirer et continuer</button>
+          <button id="recommencer" type="button" class="secondaire">Recommencer</button>
+        </div>
+      </div>
+      <div id="tires"></div>
+    </div>
+  </div>
+  <footer>Rien ne quitte votre navigateur : aucune connexion, aucun compte, aucune publicité.</footer>
+</main>
+<script>
+// État : la liste complète collée, les prénoms déjà retirés, le dernier tiré.
+const CLE = 'tirage-au-sort';
+const liste = document.getElementById('liste');
+const nom = document.getElementById('nom');
+const message = document.getElementById('message');
+const compteur = document.getElementById('compteur');
+const btnTirer = document.getElementById('tirer');
+const btnRetirer = document.getElementById('retirer');
+const btnRecommencer = document.getElementById('recommencer');
+const zoneTires = document.getElementById('tires');
+let retires = [];      // prénoms retirés, dans l'ordre
+let dernier = null;    // dernier prénom tiré, pas encore retiré
+let enCours = false;   // vrai pendant l'animation
+
+// Lit la zone de texte : une entrée par ligne non vide, espaces superflus enlevés.
+function lireListe() {
+  return liste.value.split('\n').map(l => l.trim()).filter(l => l !== '');
+}
+
+// Prénoms restants : la liste moins les retirés (un retrait enlève une seule occurrence).
+function restants() {
+  const reste = lireListe();
+  for (const r of retires) {
+    const i = reste.indexOf(r);
+    if (i !== -1) reste.splice(i, 1);
+  }
+  return reste;
+}
+
+// Hasard équitable, fourni par le navigateur.
+function auHasard(n) {
+  const a = new Uint32Array(1);
+  crypto.getRandomValues(a);
+  return a[0] % n;
+}
+
+function enregistrer() {
+  try { localStorage.setItem(CLE, JSON.stringify({ liste: liste.value, retires, dernier })); } catch (e) {}
+}
+
+function restaurer() {
+  try {
+    const d = JSON.parse(localStorage.getItem(CLE) || 'null');
+    if (d) { liste.value = d.liste || ''; retires = d.retires || []; dernier = d.dernier || null; }
+  } catch (e) {}
+}
+
+function doublons(noms) {
+  const vus = new Set(), doubles = new Set();
+  for (const n of noms) { if (vus.has(n)) doubles.add(n); vus.add(n); }
+  return [...doubles];
+}
+
+function afficher() {
+  const reste = restants();
+  const n = reste.length;
+  compteur.textContent = n + (n > 1 ? ' prénoms restants' : ' prénom restant');
+  btnTirer.disabled = enCours || n === 0;
+  btnRetirer.disabled = enCours || dernier === null;
+  if (!enCours) {
+    nom.textContent = dernier || '';
+    const d = doublons(lireListe());
+    if (lireListe().length === 0) message.textContent = 'Collez au moins un prénom dans la liste.';
+    else if (n === 0) message.textContent = 'Tout le monde est passé. Cliquez sur « Recommencer ».';
+    else if (d.length) message.textContent = 'Attention, en double : ' + d.join(', ') + '.';
+    else message.textContent = dernier ? '' : 'Prêt.';
+  }
+  zoneTires.textContent = retires.length ? 'Déjà passés : ' + retires.join(', ') : '';
+}
+
+// Tirage avec 2 secondes de défilement, qui ralentit avant de s'arrêter.
+function tirer() {
+  const reste = restants();
+  if (reste.length === 0 || enCours) return;
+  const choisi = reste[auHasard(reste.length)];
+  const calme = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (calme || reste.length === 1) { dernier = choisi; enregistrer(); afficher(); return; }
+  enCours = true; dernier = null; message.textContent = ''; nom.classList.add('defile'); afficher();
+  const debut = performance.now(), duree = 2000;
+  let prochain = 0;
+  function etape(t) {
+    const ecoule = t - debut;
+    if (ecoule >= duree) {
+      enCours = false; dernier = choisi; nom.classList.remove('defile');
+      enregistrer(); afficher(); return;
+    }
+    if (ecoule >= prochain) {
+      nom.textContent = reste[auHasard(reste.length)];
+      prochain = ecoule + 50 + 250 * (ecoule / duree) ** 2;   // de plus en plus lent
+    }
+    requestAnimationFrame(etape);
+  }
+  requestAnimationFrame(etape);
+}
+
+function retirer() {
+  if (dernier === null) return;
+  retires.push(dernier); dernier = null;
+  enregistrer(); afficher();
+}
+
+function recommencer() {
+  retires = []; dernier = null;
+  enregistrer(); afficher();
+}
+
+document.getElementById('exemple').addEventListener('click', () => {
+  liste.value = ['Anne', 'Bruno', 'Chloé', 'David', 'Émilie', 'François', 'Gaëlle', 'Hugo', 'Inès', 'Jules', 'Karim', 'Léa'].join('\n');
+  retires = []; dernier = null; enregistrer(); afficher();
+});
+btnTirer.addEventListener('click', tirer);
+btnRetirer.addEventListener('click', retirer);
+btnRecommencer.addEventListener('click', recommencer);
+liste.addEventListener('input', () => {
+  // Si la liste change, on oublie les retirés qui n'y figurent plus.
+  const noms = lireListe();
+  retires = retires.filter(r => noms.includes(r));
+  if (dernier && !noms.includes(dernier)) dernier = null;
+  enregistrer(); afficher();
+});
+
+restaurer();
+afficher();
+</script>
+</body>
+</html>
