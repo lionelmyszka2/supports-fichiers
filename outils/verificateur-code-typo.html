@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vérificateur de code typo</title>
+<meta name="description" content="Outil d’exercice : repérer dans un article les écarts au code typo fictif du Courrier de Kerbrat qu’une simple recherche suffit à trouver.">
+<style>
+  :root { --ink:#111; --paper:#fff; --muted:#555; --line:#111; --soft:#eee; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 1180px; margin: 0 auto; padding: 28px 16px 48px; }
+  header { border-bottom: 2px solid var(--line); padding-bottom: 14px; margin-bottom: 20px; }
+  .surtitre { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 4px; }
+  h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.1; margin: 0 0 8px; letter-spacing: -.01em; }
+  header p { margin: 0; color: var(--muted); max-width: 70ch; }
+  .grille { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 860px) { .grille { grid-template-columns: 1fr; } }
+  h2 { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 8px; }
+  textarea { width: 100%; min-height: 360px; padding: 12px; font: 15px/1.55 Georgia, "Times New Roman", serif; color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 0; resize: vertical; }
+  .boutons { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 0; }
+  button { font: inherit; font-size: 14px; padding: 8px 14px; border: 1px solid var(--line); background: var(--paper); color: var(--ink); cursor: pointer; }
+  button.principal { background: var(--ink); color: var(--paper); }
+  button:focus-visible, textarea:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+  .apercu { border: 1px solid var(--line); padding: 12px 14px; min-height: 360px; font: 15px/1.6 Georgia, "Times New Roman", serif; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .apercu:empty::before { content: "Collez un article à gauche, puis cliquez sur « Vérifier »."; color: var(--muted); font-family: inherit; }
+  mark { background: var(--soft); color: inherit; border-bottom: 2px solid var(--ink); padding: 0 1px; }
+  mark sup { font: 700 10px/1 -apple-system, Helvetica, Arial, sans-serif; margin-left: 2px; }
+  .bilan { margin: 28px 0 8px; font-size: 18px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 8px; border-bottom: 1px solid #bbb; }
+  th { border-bottom: 2px solid var(--line); font-size: 12px; letter-spacing: .06em; text-transform: uppercase; }
+  td.regle { font-weight: 700; white-space: nowrap; }
+  td.passage { font-family: Georgia, "Times New Roman", serif; }
+  .tableau { overflow-x: auto; }
+  .note { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 12px; color: var(--muted); font-size: 14px; max-width: 80ch; }
+  .note strong { color: var(--ink); }
+  .copie { font-size: 14px; color: var(--muted); margin-left: 4px; align-self: center; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="surtitre">Le Courrier de Kerbrat · quotidien fictif</p>
+    <h1>Vérificateur de code typo</h1>
+    <p>Collez un article : la page signale les écarts au code typo de la rédaction qu’une simple recherche dans le texte suffit à repérer. Le texte ne quitte pas votre navigateur.</p>
+  </header>
+
+  <div class="grille">
+    <section>
+      <h2>Votre article</h2>
+      <textarea id="texte" spellcheck="false" aria-label="Texte de l’article" placeholder="Titre sur la première ligne, puis le texte de l’article."></textarea>
+      <div class="boutons">
+        <button class="principal" id="verifier">Vérifier</button>
+        <button id="corriger">Corriger les espaces et apostrophes</button>
+        <button id="exemple">Charger l’article d’exercice</button>
+        <span class="copie" id="copie" role="status"></span>
+      </div>
+    </section>
+    <section>
+      <h2>Écarts repérés dans le texte</h2>
+      <div class="apercu" id="apercu" aria-live="polite"></div>
+    </section>
+  </div>
+
+  <p class="bilan" id="bilan"></p>
+  <div class="tableau"><table id="tableau" hidden>
+    <thead><tr><th>Règle</th><th>Passage</th><th>Proposition</th></tr></thead>
+    <tbody></tbody>
+  </table></div>
+
+  <div class="note">
+    <p><strong>Ce que l’outil ne voit pas.</strong> Il ne contrôle que les règles mécaniques. Les règles de jugement restent à votre charge, ou à celle d’un assistant d’IA à qui vous confiez le code typo : majuscule de l’institution (le Département) ou minuscule du territoire, fonctions en minuscule, sigle à développer à la première mention, département d’une commune hors de la zone de diffusion, longueur et forme du titre.</p>
+    <p>Outil d’exercice codé avec l’IA (Claude), octobre 2026, pour les supports de formation de <a href="https://lumiere-ia.com">lumiere-ia.com</a>. Code typo et article fictifs.</p>
+  </div>
+</main>
+
+<script>
+const NB = ' ';
+const JOURS = 'lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche';
+const MOIS = 'janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre';
+const ANNEE = new Date().getFullYear();
+const mot = s => new RegExp(`(?<!\\p{L})(?:${s})(?!\\p{L})`, 'giu');
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+// Règles mécaniques. auto : corrigeable d'un clic, regroupé en une ligne du tableau.
+const REGLES = [
+  { id: '1.1', re: new RegExp(`(?<![\\d,.\\-/])\\b[1-9]\\b(?![\\d,.:%]|\\s?(?:%|h\\b|ans?\\b|€|euros?\\b|heures?\\b|er\\b|(?:${MOIS})\\b|-\\d))`, 'g'),
+    prop: m => 'En lettres, sauf âge, score, montant : à vérifier' },
+  { id: '1.3', re: /(?:^|(?<=[.!?…]\s))\d[\d  ]*(?=\s)/gm,
+    prop: m => 'Pas de chiffre en début de phrase : en lettres ou reformuler' },
+  { id: '1.5', re: /\d(?:[\d,  ]*\d)?\s?(?:Md€|M€|k€|€)/g,
+    prop: m => m.replace(/\s?Md€/, ' milliards d’euros').replace(/\s?M€/, ' millions d’euros').replace(/\s?k€/, ' 000 euros').replace(/\s?€/, ' euros') },
+  { id: '1.6', re: /\d(?: |)%/g,
+    prop: m => m.replace(/ ?%/, NB + '%'), auto: true },
+  { id: '2.1', re: new RegExp(`(?<=[\\p{Ll},;:]\\s)(?:${(JOURS + '|' + MOIS).split('|').map(cap).join('|')})\\b`, 'gu'),
+    prop: m => m.toLowerCase() },
+  { id: '2.1', re: new RegExp(`\\b(?:${JOURS})\\s+\\d{1,2}(?:er)?\\s+(?:${MOIS})\\s+${ANNEE}\\b`, 'gi'),
+    prop: m => m.replace(new RegExp(`\\s+${ANNEE}$`), '') + ' (sans l’année en cours)' },
+  { id: '2.2', re: /\b(\d{1,2})(?:h(\d{2})?|:(\d{2}))(?![\p{L}\d])/gu,
+    prop: m => { const r = m.match(/(\d{1,2})(?:h|:)(\d{2})?/); return r[1] + NB + 'h' + (r[2] ? NB + r[2] : ''); } },
+  { id: '3.3', re: /\bEtats?\b/g, prop: m => 'É' + m.slice(1) },
+  { id: '3.3', re: /(?:^|(?<=[.!?]\s))A(?= )/gm, prop: m => 'À' },
+  { id: '4.1', re: /\b(?:[A-Z]\.){2,}/g, prop: m => m.replace(/\./g, '') + (m === 'I.A.' ? ' (et « intelligence artificielle » à la première mention, règle 11.4)' : '') },
+  { id: '5.2', re: /\b(?:Mme|Mlle|Mmes|MM\.|M\.)(?=\s)/g, prop: m => 'Supprimer la civilité' },
+  { id: '6.1', re: /\b(Ste|St)-(?=\p{Lu})/gu, prop: m => m.startsWith('Ste') ? 'Sainte-' : 'Saint-' },
+  { id: '7.1', re: /"[^"\n]*"/g, prop: m => '«' + NB + m.slice(1, -1) + NB + '»', auto: true },
+  { id: '7.1', re: /«(?![  ]) ?|(?<![  ]) ?»/g, prop: m => m.includes('«') ? '«' + NB : NB + '»', auto: true },
+  { id: '7.3', re: /\b(?:martel|martèl|assén|assèn|fustig|tacl)\p{L}*/giu, prop: m => 'Verbe neutre : dit, explique, précise' },
+  { id: '9.1', re: /(?<![  \d/])( ?)([;:!?])(?!\/\/|\d)/g, prop: m => NB + m.trim(), auto: true },
+  { id: '9.2', re: /'/g, prop: m => '’', auto: true },
+  { id: '9.2', re: /\.\.\./g, prop: m => '…', auto: true },
+  { id: '11.1', re: mot('e-mails?|emails?|mails?'), prop: m => /s$/i.test(m) ? 'courriels' : 'courriel' },
+  { id: '11.2', re: mot('évènements?'), prop: m => m.replace(/évè/i, 'évé') },
+  { id: '11.2', re: mot('clefs?'), prop: m => m.replace(/clef/i, 'clé') },
+  { id: '11.3', re: mot('suite (?:à|aux?)'), prop: m => 'après' },
+  { id: '11.3', re: mot('impact(?:e|es|ent|er|é|ée|és|ées|ait|aient|era|eront|ant)'), prop: m => 'toucher (à conjuguer)' },
+  { id: '11.3', re: mot('init(?:ie|ies|ient|ier|ié|iée|iés|iées|iait|iera)'), prop: m => 'lancer (à conjuguer)' },
+  { id: '11.3', re: mot('au final'), prop: m => 'finalement' },
+  { id: '11.3', re: mot('au niveau d(?:e|u|es)'), prop: m => 'Seulement au sens propre : à vérifier' },
+];
+
+function chercher(texte) {
+  const res = [];
+  for (const r of REGLES) {
+    r.re.lastIndex = 0;
+    let m;
+    while ((m = r.re.exec(texte)) !== null) {
+      if (m[0] === '') { r.re.lastIndex++; continue; }
+      res.push({ id: r.id, debut: m.index, fin: m.index + m[0].length, passage: m[0], prop: r.prop(m[0]), auto: !!r.auto });
+    }
+  }
+  // Titre : première ligne non vide
+  const t = texte.match(/^\s*([^\n]+)/);
+  if (t) {
+    const ligne = t[1], debut = texte.indexOf(ligne), fin = debut + ligne.length;
+    if (/[.!]\s*$/.test(ligne)) res.push({ id: '9.3', debut: fin - 1, fin, passage: ligne, prop: 'Titre sans point final ni point d’exclamation', auto: false, titre: true });
+  }
+  // Une même portion ne compte qu'une fois : on garde la première règle trouvée
+  res.sort((a, b) => a.debut - b.debut || b.fin - a.fin);
+  const vus = [];
+  for (const r of res) {
+    if (vus.some(v => v.debut === r.debut && v.fin === r.fin && v.auto === r.auto && !r.titre)) continue;
+    vus.push(r);
+  }
+  return vus;
+}
+
+function echapper(s) { return s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+function apercu(texte, ecarts) {
+  // Surligne les écarts sans chevauchement
+  const tri = ecarts.slice().sort((a, b) => a.debut - b.debut || (b.fin - b.debut) - (a.fin - a.debut));
+  let html = '', pos = 0;
+  for (const e of tri) {
+    if (e.debut < pos) continue;
+    html += echapper(texte.slice(pos, e.debut));
+    const vis = texte.slice(e.debut, e.fin).replace(/ /g, '·');
+    html += `<mark title="Règle ${e.id} : ${echapper(e.prop)}">${echapper(vis)}<sup>${e.id}</sup></mark>`;
+    pos = e.fin;
+  }
+  return html + echapper(texte.slice(pos));
+}
+
+function verifier() {
+  const texte = document.getElementById('texte').value;
+  const ecarts = chercher(texte);
+  document.getElementById('apercu').innerHTML = texte.trim() ? apercu(texte, ecarts) : '';
+  const corps = document.querySelector('#tableau tbody');
+  corps.innerHTML = '';
+  const visibles = ecarts.filter(e => !e.auto);
+  const auto = ecarts.filter(e => e.auto);
+  for (const e of visibles) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td class="regle">${e.id}</td><td class="passage">${echapper(e.passage)}</td><td>${echapper(e.prop)}</td>`;
+    corps.appendChild(tr);
+  }
+  const groupes = {};
+  for (const e of auto) groupes[e.id] = (groupes[e.id] || 0) + 1;
+  const libelles = { '1.6': 'espace ordinaire ou absente avant %', '7.1': 'guillemets droits ou espace ordinaire dans les guillemets', '9.1': 'espace ordinaire ou absente avant : ; ! ?', '9.2': 'apostrophe droite ou points de suspension en trois points' };
+  for (const id of Object.keys(groupes).sort()) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td class="regle">${id}</td><td>${groupes[id]} × ${libelles[id]}</td><td>Bouton « Corriger les espaces et apostrophes »</td>`;
+    corps.appendChild(tr);
+  }
+  document.getElementById('tableau').hidden = !texte.trim();
+  document.getElementById('bilan').textContent = texte.trim()
+    ? `${visibles.length} écart${visibles.length > 1 ? 's' : ''} à examiner, ${auto.length} correction${auto.length > 1 ? 's' : ''} d’espaces et de signes à faire d’un clic.`
+    : '';
+}
+
+function corriger() {
+  const zone = document.getElementById('texte');
+  let t = zone.value;
+  t = t.replace(/"([^"\n]*)"/g, (m, c) => '«' + c + '»');
+  t = t.replace(/« ?/g, '«' + NB).replace(/ ?»/g, NB + '»');
+  t = t.replace(/(?<![\d/])( ?)([;:!?])(?!\/\/|\d)/g, (m, s, p) => NB + p);
+  t = t.replace(/(\d) ?%/g, '$1' + NB + '%');
+  t = t.replace(/'/g, '’').replace(/\.\.\./g, '…');
+  zone.value = t;
+  verifier();
+  const etat = document.getElementById('copie');
+  if (navigator.clipboard) navigator.clipboard.writeText(t).then(() => { etat.textContent = 'Texte corrigé copié.'; }, () => { etat.textContent = 'Texte corrigé dans la zone.'; });
+  else etat.textContent = 'Texte corrigé dans la zone.';
+}
+
+const EXEMPLE = `Médiathèque : le conseil municipal dit oui !
+
+Le conseil municipal de Kerbrat a voté, Mardi 13 octobre 2026, la construction d'une médiathèque rue St-Yves. Le projet, estimé à 3,2 M€, sera financé à 40% par la Région, le reste étant partagé entre la commune, le département et l'Etat.
+
+Suite à deux heures de débat, Mme Maëlle Kerhervé, Maire de Kerbrat, s'est félicitée du vote : « Ce lieu sera un évènement pour toute la commune », a-t-elle martelé.
+
+Yann Le Bihan, conseiller municipal d'opposition, craint que le chantier impacte le budget des associations. Il demande un avis de la CRC avant le lancement des travaux.
+
+150 habitants avaient répondu à la consultation organisée au printemps. La médiathèque proposera 3 espaces, dont un atelier d'initiation à l'I.A. Elle a été dessinée par Anne Riou, architecte installée à Lannion.
+
+Une réunion publique est prévue jeudi 22 octobre à 20h30, salle des fêtes. Inscriptions par e-mail auprès de la mairie.`;
+
+document.getElementById('verifier').addEventListener('click', verifier);
+document.getElementById('corriger').addEventListener('click', corriger);
+document.getElementById('exemple').addEventListener('click', () => { document.getElementById('texte').value = EXEMPLE; document.getElementById('copie').textContent = ''; verifier(); });
+</script>
+</body>
+</html>
