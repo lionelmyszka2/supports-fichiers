@@ -22,6 +22,7 @@ Cliquez sur l'adresse : la présentation s'ouvre dans le navigateur. Bouton plei
 | Présentation | Adresse | Utilisée dans |
 | --- | --- | --- |
 | Jev, l'IA qui décide | https://lionelmyszka2.github.io/supports-fichiers/films/jev-l-ia-qui-decide.html | JEV : une IA qui décide au lieu de rédiger |
+| Énergie et numérique | https://lionelmyszka2.github.io/supports-fichiers/films/energie-et-numerique.html | L'empreinte environnementale de l'IA |
 
 ## Outils à ouvrir dans le navigateur
 
@@ -33,6 +34,7 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
 
