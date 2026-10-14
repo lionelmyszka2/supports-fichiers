@@ -8,7 +8,7 @@ Toutes les données sont fictives ou publiques.
 
 | Fichier | Utilisé dans |
 | --- | --- |
-| centre_aquatique_2025.xlsx | D'Excel à l'application (Faire parler les données), données de janvier à décembre 2025 |
+| centre_aquatique_2025.xlsx | Comprendre une baisse de fréquentation (Faire parler les données) et D'Excel à l'application (Créer une application sur mesure), données de janvier à décembre 2025 |
 | resultats/jev-fermetures-deliberations-bretagne-2026-09.xlsx | JEV : une IA qui décide au lieu de rédiger |
 | code_typo_courrier_de_kerbrat.docx | Relire un article avec le code typo de la rédaction (Corriger l'orthographe et la grammaire) |
 | bodacc-40-landes-11sept-11oct-2026.csv | Trouver des sujets dans le BODACC (Construire une veille) : données publiques BODACC (DILA), noms des entrepreneurs individuels masqués |
@@ -35,6 +35,7 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
 
