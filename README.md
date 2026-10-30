@@ -14,6 +14,7 @@ Toutes les données sont fictives ou publiques.
 | bodacc-40-landes-11sept-11oct-2026.csv | Trouver des sujets dans le BODACC (Construire une veille) : données publiques BODACC (DILA), noms des entrepreneurs individuels masqués |
 | bodacc-24-dordogne-11sept-11oct-2026.csv | Trouver des sujets dans le BODACC (Construire une veille) : données publiques BODACC (DILA), noms des entrepreneurs individuels masqués |
 | bodacc-31-haute-garonne-11sept-11oct-2026.csv | Trouver des sujets dans le BODACC (Construire une veille) : données publiques BODACC (DILA), noms des entrepreneurs individuels masqués |
+| durand-previsionnel-2027.xlsx | Ajouter une embauche au prévisionnel et Le tableau de bord de la gérante (L'IA pour les experts-comptables) : prévisionnel 2027 de Durand & Cie, PME fictive |
 
 ## Présentations à ouvrir dans le navigateur
 
@@ -35,6 +36,7 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
 
