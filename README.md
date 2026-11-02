@@ -19,6 +19,7 @@ Toutes les données sont fictives ou publiques.
 | cabinet-facture-et-ventes-formules.xlsx | Faire écrire une formule Excel (L'IA pour les experts-comptables) : facture et journal des ventes du cabinet fictif Morvan-Leroux, sans formules |
 | durand-balance-2025-a-controler.xlsx | Trouver les erreurs d'une balance (L'IA pour les experts-comptables) : balance 2025 de Durand & Cie avec erreurs volontaires |
 | durand-previsionnel-2027.xlsx | Ajouter une embauche au prévisionnel et Le tableau de bord de la gérante (L'IA pour les experts-comptables) : prévisionnel 2027 de Durand & Cie, PME fictive |
+| 000000000FEC20251231.txt | Analyser le FEC de Durand avant un contrôle fiscal (L'IA pour les experts-comptables) : FEC 2025 fictif de Durand & Cie, 7 796 lignes, au format légal (ISO-8859-15) |
 | durand-achats-octobre-2026.xlsx | Repérer un taux de TVA anormal (L'IA pour les experts-comptables) : journal des achats d'octobre 2026 de Durand & Cie, PME fictive |
 | durand-compte-client-411-hdc.xlsx | Préparer un lettrage (L'IA pour les experts-comptables) : compte client non lettré de Durand & Cie, PME fictive |
 
@@ -42,6 +43,7 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
 
