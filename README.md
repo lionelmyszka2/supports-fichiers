@@ -75,6 +75,11 @@ Documents à ouvrir dans le navigateur ou à télécharger (clic droit, « Enreg
 | [recherche-approfondie-requin-blanc-bretagne-gemini.pdf](pdf/recherche-approfondie-requin-blanc-bretagne-gemini.pdf) | Cinq rapports de recherche approfondie |
 | [recherche-approfondie-saaspocalypse-chatgpt.pdf](pdf/recherche-approfondie-saaspocalypse-chatgpt.pdf) | Cinq rapports de recherche approfondie |
 | [second-cerveau-presentation-lumiere-ia.pdf](pdf/second-cerveau-presentation-lumiere-ia.pdf) | Créer un second cerveau |
+| [communicants-kerval-conseil-22-octobre-2026.pdf](pdf/communicants-kerval-conseil-22-octobre-2026.pdf) | Ce que le conseil a décidé pour les habitants ; Le dossier Kerval Métropole |
+| [communicants-kerval-bilan-reseaux-octobre-2026.pdf](pdf/communicants-kerval-bilan-reseaux-octobre-2026.pdf) | Lire le bilan des réseaux sociaux ; Le dossier Kerval Métropole |
+| [communicants-kerval-projet-edito-janvier-2027.pdf](pdf/communicants-kerval-projet-edito-janvier-2027.pdf) | L'édito des vœux en période électorale ; Le dossier Kerval Métropole |
+| [communicants-kerval-fiche-chantier-rue-de-brest.pdf](pdf/communicants-kerval-fiche-chantier-rue-de-brest.pdf) | Écrire l'avis aux riverains d'un chantier ; Répondre aux commentaires d'une publication ; Le dossier Kerval Métropole |
+| [communicants-kerval-commentaires-facebook.pdf](pdf/communicants-kerval-commentaires-facebook.pdf) | Répondre aux commentaires d'une publication ; Le dossier Kerval Métropole |
 
 ## Présentations à ouvrir dans le navigateur
 
@@ -96,6 +101,7 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
 
 
 
