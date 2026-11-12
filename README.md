@@ -89,6 +89,7 @@ Documents à ouvrir dans le navigateur ou à télécharger (clic droit, « Enreg
 | [comptables-reglement-anc-2014-03-pcg-2024.pdf](pdf/comptables-reglement-anc-2014-03-pcg-2024.pdf) | Un assistant pour le plan comptable : règlement ANC 2014-03, version au 1er janvier 2024 |
 | [directive-2006-54-ce-egalite-hommes-femmes.pdf](pdf/directive-2006-54-ce-egalite-hommes-femmes.pdf) | Un assistant qui explique un texte de loi : directive 2006/54/CE |
 | [morlaix-communaute-budget-primitif-2026.pdf](pdf/morlaix-communaute-budget-primitif-2026.pdf) | Le budget primitif de Morlaix Communauté : budget principal 2026 |
+| [jugement-tj-paris-25-fevrier-2021.pdf](pdf/jugement-tj-paris-25-fevrier-2021.pdf) | Comprendre un dossier judiciaire avec l'IA : jugement du tribunal judiciaire de Paris du 25 février 2021 (bail commercial), décision pseudonymisée |
 
 ## Présentations à ouvrir dans le navigateur
 
@@ -110,3 +111,4 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
+
