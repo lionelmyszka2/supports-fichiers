@@ -23,6 +23,8 @@ Toutes les données sont fictives ou publiques.
 | 000000000FEC20251231.txt | Analyser le FEC de Durand avant un contrôle fiscal (L'IA pour les experts-comptables) : FEC 2025 fictif de Durand & Cie, 7 796 lignes, au format légal (ISO-8859-15) |
 | durand-achats-octobre-2026.xlsx | Repérer un taux de TVA anormal (L'IA pour les experts-comptables) : journal des achats d'octobre 2026 de Durand & Cie, PME fictive |
 | durand-compte-client-411-hdc.xlsx | Préparer un lettrage (L'IA pour les experts-comptables) : compte client non lettré de Durand & Cie, PME fictive |
+| insee-naissances-donnees-2025-11.csv | Analyser des données de l'Insee avec l'IA : nombre de naissances, données publiques de l'Insee téléchargées en novembre 2025 |
+| insee-naissances-metadonnees-2025-11.csv | Analyser des données de l'Insee avec l'IA : métadonnées du fichier des naissances (Insee) |
 
 ## Documents PDF
 
@@ -80,6 +82,13 @@ Documents à ouvrir dans le navigateur ou à télécharger (clic droit, « Enreg
 | [communicants-kerval-projet-edito-janvier-2027.pdf](pdf/communicants-kerval-projet-edito-janvier-2027.pdf) | L'édito des vœux en période électorale ; Le dossier Kerval Métropole |
 | [communicants-kerval-fiche-chantier-rue-de-brest.pdf](pdf/communicants-kerval-fiche-chantier-rue-de-brest.pdf) | Écrire l'avis aux riverains d'un chantier ; Répondre aux commentaires d'une publication ; Le dossier Kerval Métropole |
 | [communicants-kerval-commentaires-facebook.pdf](pdf/communicants-kerval-commentaires-facebook.pdf) | Répondre aux commentaires d'une publication ; Le dossier Kerval Métropole |
+| [plan-maison-fictive-rez-de-chaussee.pdf](pdf/plan-maison-fictive-rez-de-chaussee.pdf) | Lire un plan de maison : plan fictif du rez-de-chaussée, 1/50, A3 |
+| [plan-maison-fictive-etage.pdf](pdf/plan-maison-fictive-etage.pdf) | Lire un plan de maison : plan fictif de l'étage, 1/50, A3 |
+| [plan-maison-fictive-coupe.pdf](pdf/plan-maison-fictive-coupe.pdf) | Lire un plan de maison : coupe fictive A-A, 1/50, A3 |
+| [collectivites-loi-1983-droits-obligations-fonctionnaires-2019.pdf](pdf/collectivites-loi-1983-droits-obligations-fonctionnaires-2019.pdf) | Vérifier une réponse sur le cumul d'activités : loi du 13 juillet 1983 consolidée après la loi du 6 août 2019 |
+| [comptables-reglement-anc-2014-03-pcg-2024.pdf](pdf/comptables-reglement-anc-2014-03-pcg-2024.pdf) | Un assistant pour le plan comptable : règlement ANC 2014-03, version au 1er janvier 2024 |
+| [directive-2006-54-ce-egalite-hommes-femmes.pdf](pdf/directive-2006-54-ce-egalite-hommes-femmes.pdf) | Un assistant qui explique un texte de loi : directive 2006/54/CE |
+| [morlaix-communaute-budget-primitif-2026.pdf](pdf/morlaix-communaute-budget-primitif-2026.pdf) | Le budget primitif de Morlaix Communauté : budget principal 2026 |
 
 ## Présentations à ouvrir dans le navigateur
 
@@ -101,19 +110,3 @@ Petits outils codés avec l'IA pour les exercices. Ils fonctionnent dans le navi
 | Tirage au sort | https://lionelmyszka2.github.io/supports-fichiers/outils/tirage-au-sort.html | Coder un tirage au sort avec l'IA (Créer une application sur mesure avec l'IA) |
 
 Lionel Myszka, https://lumiere-ia.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
