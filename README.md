@@ -25,6 +25,11 @@ Toutes les données sont fictives ou publiques.
 | durand-compte-client-411-hdc.xlsx | Préparer un lettrage (L'IA pour les experts-comptables) : compte client non lettré de Durand & Cie, PME fictive |
 | insee-naissances-donnees-2025-11.csv | Analyser des données de l'Insee avec l'IA : nombre de naissances, données publiques de l'Insee téléchargées en novembre 2025 |
 | insee-naissances-metadonnees-2025-11.csv | Analyser des données de l'Insee avec l'IA : métadonnées du fichier des naissances (Insee) |
+| habitat-revenus-pauvrete-filosofi-2021-communes-35-93.csv | Croiser trois fichiers publics sur le logement (Faire parler les données) : niveau de vie et taux de pauvreté des communes d'Ille-et-Vilaine et de Seine-Saint-Denis, données publiques (Insee, Filosofi 2021) |
+| habitat-logements-vacants-lovac-communes-35-93-2020-2026.csv | Croiser trois fichiers publics sur le logement (Faire parler les données) : logements privés vacants par commune, 2020 à 2026, données publiques (ministère de la Transition écologique, LOVAC) |
+| habitat-parc-prive-modeste-ppom-communes-35-93.csv | Croiser trois fichiers publics sur le logement (Faire parler les données) : parc privé à occupation modeste par commune, données publiques (Anah, PPOM 2019) |
+| habitat-parc-prive-modeste-ppom-carreaux-35-93.csv | Croiser trois fichiers publics sur le logement (Faire parler les données) : parc privé à occupation modeste par carreau de 200 m, données publiques (Anah, PPOM 2019) |
+| habitat-logements-indignes-2012-2021.csv | Croiser trois fichiers publics sur le logement (Faire parler les données) : actions contre l'habitat indigne en France, 2012 à 2021, données publiques (ministère de la Cohésion des territoires) |
 
 ## Documents PDF
 
