@@ -1,0 +1,376 @@
+﻿type_terr;code_com;nom_com;code_epci;nom_epci;code_dep;nom_dep;code_reg;nom_reg;log_prive;logts_ppom20;part_ppom20_totalrpp;logts_ppom25;part_ppom25_totalrpp;PF_60;PF_80
+COMMUNE;35001;Acigné;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2418;2;0,1%;1;0,0%;0,0;0,0
+COMMUNE;35002;Amanlis;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;664;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35003;Andouillé-Neuville;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;329;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35004;Val-Couesnon;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;1570;103;6,6%;69;4,4%;48,911970000000004;34,12877
+COMMUNE;35005;Arbrissel;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;110;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35006;Argentré-du-Plessis;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;1661;8;0,5%;4;0,3%;0,0;0,0
+COMMUNE;35007;Aubigné;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;159;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35008;Availles-sur-Seiche;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;204;1;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35009;Baguer-Morvan;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;645;20;3,1%;11;1,7%;0,0;0,0
+COMMUNE;35010;Baguer-Pican;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;604;29;4,9%;15;2,5%;8,941680000000002;4,998
+COMMUNE;35012;Bain-de-Bretagne;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;2906;78;2,7%;36;1,2%;0,0;0,0
+COMMUNE;35013;Bains-sur-Oust;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;1469;28;1,9%;12;0,8%;10,23024;10,23024
+COMMUNE;35014;Bais;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;865;17;2,0%;10;1,2%;3,52;3,52
+COMMUNE;35015;Balazé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;787;2;0,2%;2;0,2%;0,0;0,0
+COMMUNE;35016;Baulon;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;823;5;0,6%;0;0,0%;2,15985;2,15985
+COMMUNE;35017;La Baussaine;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;225;4;1,9%;2;0,7%;0,0;0,0
+COMMUNE;35018;La Bazouge-du-Désert;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;435;30;6,9%;21;4,8%;4,7481;4,7481
+COMMUNE;35019;Bazouges-la-Pérouse;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;756;64;8,4%;40;5,3%;20,30454;4,009
+COMMUNE;35021;Beaucé;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;467;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35022;Bécherel;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;217;29;13,5%;21;9,7%;18,08652;0,0
+COMMUNE;35023;Bédée;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;1672;13;0,8%;3;0,2%;0,0;0,0
+COMMUNE;35024;Betton;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;4556;2;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35025;Billé;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;373;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35026;Bléruais;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;44;4;9,2%;4;9,2%;4,0040000000000004;4,0040000000000004
+COMMUNE;35027;Boisgervilly;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;633;3;0,4%;0;0,0%;0,0;0,0
+COMMUNE;35028;Boistrudan;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;266;5;2,0%;5;1,7%;0,0;0,0
+COMMUNE;35029;Bonnemain;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;604;18;3,0%;1;0,2%;0,0;0,0
+COMMUNE;35030;La Bosse-de-Bretagne;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;266;4;1,5%;3;1,1%;0,0;0,0
+COMMUNE;35031;La Bouëxière;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;1593;9;0,5%;0;0,0%;0,0;0,0
+COMMUNE;35032;Bourgbarré;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1505;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35033;Bourg-des-Comptes;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;1206;6;0,5%;0;0,0%;1,8618600000000003;0,0
+COMMUNE;35034;La Boussac;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;477;20;4,2%;9;2,0%;14,291;14,291
+COMMUNE;35035;Bovel;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;221;5;2,2%;1;0,6%;0,0;0,0
+COMMUNE;35037;Bréal-sous-Montfort;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;2346;4;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35038;Bréal-sous-Vitré;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;236;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35039;Brécé;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;674;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35040;Breteil;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;1346;7;0,5%;1;0,1%;0,0;0,0
+COMMUNE;35041;Brie;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;333;8;2,4%;2;0,5%;3,0;3,0
+COMMUNE;35042;Brielles;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;242;10;4,0%;7;3,0%;4,994999999999999;4,994999999999999
+COMMUNE;35044;Broualan;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;151;7;4,5%;6;3,7%;3,7237200000000006;3,7237200000000006
+COMMUNE;35045;Bruc-sur-Aff;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;370;16;4,2%;7;1,8%;0,0;0,0
+COMMUNE;35046;Les Brulais;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;209;18;8,5%;13;6,3%;3,903120000000001;0,0
+COMMUNE;35047;Bruz;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;6578;62;0,9%;37;0,6%;0,0;0,0
+COMMUNE;35049;Cancale;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;2371;24;1,0%;14;0,6%;16,20376;16,20376
+COMMUNE;35050;Cardroc;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;207;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35051;Cesson-Sévigné;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;6638;16;0,2%;11;0,2%;0,0;0,0
+COMMUNE;35052;Champeaux;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;189;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35054;Chanteloup;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;640;4;0,5%;1;0,2%;0,0;0,0
+COMMUNE;35055;Chantepie;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;3744;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35056;La Chapelle-aux-Filtzméens;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;272;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35057;La Chapelle-Bouëxic;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;523;12;2,3%;8;1,5%;6,31668;6,31668
+COMMUNE;35058;La Chapelle-Chaussée;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;444;7;1,5%;1;0,2%;0,0;0,0
+COMMUNE;35059;La Chapelle-des-Fougeretz;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1547;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35060;La Chapelle du Lou du Lac;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;346;1;0,2%;0;0,1%;0,0;0,0
+COMMUNE;35061;La Chapelle-Erbrée;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;262;7;2,5%;0;0,1%;3,0362;0,0
+COMMUNE;35062;La Chapelle-Janson;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;563;26;4,7%;13;2,3%;10,683;10,683
+COMMUNE;35063;La Chapelle-Saint-Aubert;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;170;3;1,8%;2;1,4%;0,0;0,0
+COMMUNE;35064;La Chapelle-de-Brain;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;475;40;8,4%;18;3,9%;7,0070000000000014;7,0070000000000014
+COMMUNE;35065;La Chapelle-Thouarault;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;739;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35066;Chartres-de-Bretagne;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;3052;6;0,2%;3;0,1%;2,55255;2,55255
+COMMUNE;35067;Chasné-sur-Illet;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;555;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35068;Châteaubourg;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;2678;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35069;Châteaugiron;243500659;Communauté de communes Pays de Châteaugiron Communauté;35;Ille-et-Vilaine;53;Bretagne;3844;5;0,1%;0;0,0%;3,696;3,696
+COMMUNE;35070;Châteauneuf-d'Ille-et-Vilaine;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;556;1;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35071;Le Châtellier;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;154;6;3,6%;5;3,3%;0,0;0,0
+COMMUNE;35072;Châtillon-en-Vendelais;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;665;7;1,0%;1;0,1%;3,995;3,995
+COMMUNE;35075;Chauvigné;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;324;10;3,1%;8;2,6%;4,129840000000001;0,0
+COMMUNE;35076;Chavagne;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1488;4;0,2%;1;0,0%;0,0;0,0
+COMMUNE;35077;Chelun;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;135;10;7,6%;10;7,4%;8,94705;8,94705
+COMMUNE;35078;Cherrueix;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;449;17;3,7%;16;3,5%;0,0;0,0
+COMMUNE;35079;Chevaigné;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;778;1;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35080;Cintré;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;795;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35081;Clayes;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;285;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35082;Coësmes;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;523;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35084;Comblessac;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;291;22;7,5%;15;5,0%;8,798;8,798
+COMMUNE;35085;Combourg;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;2346;39;1,7%;20;0,9%;4,0;4,0
+COMMUNE;35086;Combourtillé;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;221;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35087;Cornillé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;343;2;0,6%;1;0,3%;0,0;0,0
+COMMUNE;35088;Corps-Nuds;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1181;1;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35089;La Couyère;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;178;12;6,9%;1;0,7%;5,1051;5,1051
+COMMUNE;35090;Crevin;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;951;6;0,6%;0;0,0%;3,0030000000000006;3,0030000000000006
+COMMUNE;35091;Le Crouais;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;204;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35092;Cuguen;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;316;10;3,0%;5;1,6%;0,0;0,0
+COMMUNE;35093;Dinard;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;4702;21;0,4%;0;0,0%;8,972840000000001;4,0
+COMMUNE;35094;Dingé;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;642;7;1,1%;4;0,6%;0,0;0,0
+COMMUNE;35095;Dol-de-Bretagne;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;2225;11;0,5%;6;0,3%;4,14253;4,14253
+COMMUNE;35096;Domagné;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;911;1;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35097;Domalain;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;685;5;0,7%;1;0,1%;0,0;0,0
+COMMUNE;35098;La Dominelais;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;551;16;3,0%;6;1,1%;0,0;0,0
+COMMUNE;35099;Domloup;243500659;Communauté de communes Pays de Châteaugiron Communauté;35;Ille-et-Vilaine;53;Bretagne;1278;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35101;Dourdain;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;414;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35102;Drouges;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;191;1;0,7%;1;0,5%;0,0;0,0
+COMMUNE;35103;Eancé;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;159;14;8,5%;12;7,6%;5,994;5,994
+COMMUNE;35104;Epiniac;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;576;8;1,3%;3;0,5%;6,0464400000000005;6,0464400000000005
+COMMUNE;35105;Erbrée;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;627;3;0,4%;2;0,3%;0,0;0,0
+COMMUNE;35106;Ercé-en-Lamée;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;625;34;5,4%;26;4,1%;5,45376;0,0
+COMMUNE;35107;Ercé-près-Liffré;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;680;1;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35108;Essé;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;391;5;1,4%;2;0,4%;0,0;0,0
+COMMUNE;35109;Étrelles;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;912;1;0,1%;1;0,1%;0,0;0,0
+COMMUNE;35110;Feins;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;383;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35111;Le Ferré;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;258;18;7,0%;5;1,9%;0,0;0,0
+COMMUNE;35112;Fleurigné;200072452;CA Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;370;5;1,4%;4;1,1%;0,0;0,0
+COMMUNE;35114;Forges-la-Forêt;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;106;18;16,6%;13;11,9%;3,996;3,996
+COMMUNE;35115;Fougères;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;7399;92;1,2%;19;0,3%;3,27726;3,27726
+COMMUNE;35116;La Fresnais;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1020;16;1,5%;16;1,5%;10,32168;10,32168
+COMMUNE;35117;Gaël;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;648;53;8,2%;32;5,0%;14,34565;14,34565
+COMMUNE;35118;Gahard;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;536;12;2,2%;3;0,5%;5,760000000000001;5,760000000000001
+COMMUNE;35119;Gennes-sur-Seiche;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;307;13;4,1%;4;1,4%;6,00928;6,00928
+COMMUNE;35120;Gévezé;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1971;5;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35121;Gosné;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;772;7;0,9%;4;0,5%;4,0040000000000004;4,0040000000000004
+COMMUNE;35122;La Gouesnière;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;734;1;0,1%;1;0,1%;0,0;0,0
+COMMUNE;35123;Goven;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;1619;13;0,8%;4;0,3%;0,0;0,0
+COMMUNE;35124;Grand-Fougeray;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;936;33;3,5%;14;1,5%;7,355479999999999;0,0
+COMMUNE;35125;La Guerche-de-Bretagne;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;1763;64;3,6%;44;2,5%;0,0;0,0
+COMMUNE;35126;Guichen;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;3086;4;0,1%;3;0,1%;0,0;0,0
+COMMUNE;35127;Guignen;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;1530;13;0,8%;0;0,0%;0,0;0,0
+COMMUNE;35128;Guipel;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;626;18;2,9%;6;0,9%;0,0;0,0
+COMMUNE;35130;Hédé-Bazouges;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;847;19;2,3%;0;0,0%;13,609;13,609
+COMMUNE;35131;L'Hermitage;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1556;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35132;Hirel;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;598;14;2,4%;5;0,9%;6,35008;6,35008
+COMMUNE;35133;Iffendic;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;1650;27;1,6%;12;0,7%;12,027800000000001;12,027800000000001
+COMMUNE;35134;Les Iffs;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;106;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35135;Irodouër;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;830;8;0,9%;6;0,7%;5,493;5,493
+COMMUNE;35136;Janzé;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;3300;17;0,5%;3;0,1%;0,0;0,0
+COMMUNE;35137;Javené;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;775;1;0,1%;1;0,1%;0,0;0,0
+COMMUNE;35138;Laignelet;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;403;4;1,0%;4;1,0%;0,0;0,0
+COMMUNE;35139;Laillé;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1899;15;0,8%;3;0,2%;7,8045;0,0
+COMMUNE;35140;Lalleu;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;223;8;3,6%;3;1,4%;0,0;0,0
+COMMUNE;35141;Landavran;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;222;1;0,2%;1;0,2%;0,0;0,0
+COMMUNE;35142;Landéan;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;502;1;0,2%;0;0,0%;0,0;0,0
+COMMUNE;35143;Landujan;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;336;4;1,2%;2;0,5%;0,0;0,0
+COMMUNE;35144;Langan;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;399;6;1,5%;1;0,2%;2,4;0,0
+COMMUNE;35145;Langon;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;633;89;14,0%;79;12,5%;14,32168;8,008000000000001
+COMMUNE;35146;Langouet;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;213;8;3,6%;0;0,0%;6,7942;6,7942
+COMMUNE;35148;Lanrigan;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;47;0;0,2%;0;0,2%;0,0;0,0
+COMMUNE;35149;Lassy;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;610;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35150;Lécousse;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;1394;8;0,6%;7;0,5%;6,994000000000001;6,994000000000001
+COMMUNE;35151;Lieuron;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;299;11;3,6%;3;1,1%;4,5830400000000004;4,5830400000000004
+COMMUNE;35152;Liffré;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;2905;3;0,1%;1;0,0%;0,0;0,0
+COMMUNE;35153;Lillemer;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;122;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35154;Livré-sur-Changeon;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;601;6;1,0%;4;0,6%;0,0;0,0
+COMMUNE;35155;Lohéac;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;255;3;1,3%;3;1,2%;3,003;3,003
+COMMUNE;35156;Longaulnay;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;267;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35157;Le Loroux;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;234;10;4,3%;10;4,3%;3,0;0,0
+COMMUNE;35159;Lourmais;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;128;1;0,4%;0;0,1%;0,0;0,0
+COMMUNE;35160;Loutehel;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;118;15;12,6%;11;9,0%;0,0;0,0
+COMMUNE;35161;Louvigné-de-Bais;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;690;0;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35162;Louvigné-du-Désert;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;1402;49;3,5%;43;3,1%;26,63679;21,89363
+COMMUNE;35163;Luitré-Dompierre;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;720;9;1,2%;0;0,0%;3,0362;0,0
+COMMUNE;35164;Marcillé-Raoul;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;281;4;1,4%;1;0,2%;0,0;0,0
+COMMUNE;35165;Marcillé-Robert;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;353;6;1,6%;2;0,7%;2,78628;2,78628
+COMMUNE;35166;Marpiré;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;334;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35167;Martigné-Ferchaud;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;1105;50;4,5%;40;3,6%;17,3546;17,3546
+COMMUNE;35168;Val d'Anast;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;1585;54;3,4%;32;2,0%;14,759920000000001;0,0
+COMMUNE;35169;Maxent;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;556;28;5,1%;21;3,8%;8,837430000000001;8,837430000000001
+COMMUNE;35170;Mecé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;229;5;2,1%;1;0,3%;0,0;0,0
+COMMUNE;35171;Médréac;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;702;11;1,5%;6;0,9%;4,447330000000001;4,447330000000001
+COMMUNE;35172;Meillac;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;697;13;1,8%;1;0,1%;0,0;0,0
+COMMUNE;35173;Melesse;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;2583;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35174;Mellé;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;270;27;10,1%;23;8,5%;0,0;0,0
+COMMUNE;35175;Mernel;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;426;1;0,3%;0;0,1%;0,0;0,0
+COMMUNE;35176;Guipry-Messac;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;3009;88;2,9%;19;0,6%;28,1796;11,999
+COMMUNE;35177;La Mézière;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;1753;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35178;Mézières-sur-Couesnon;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;630;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35179;Miniac-Morvan;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1638;25;1,5%;3;0,2%;10,689840000000002;2,7600000000000002
+COMMUNE;35180;Miniac-sous-Bécherel;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;282;4;1,5%;1;0,3%;0,0;0,0
+COMMUNE;35181;Le Minihic-sur-Rance;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;623;18;2,8%;3;0,5%;11,98744;11,98744
+COMMUNE;35183;Mondevert;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;284;2;0,8%;2;0,8%;0,0;0,0
+COMMUNE;35184;Montauban-de-Bretagne;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;2340;15;0,6%;10;0,4%;5,0040000000000004;5,0040000000000004
+COMMUNE;35185;Montautour;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;92;2;1,6%;1;0,5%;0,0;0,0
+COMMUNE;35186;Mont-Dol;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;495;15;3,0%;14;2,7%;3,003;3,003
+COMMUNE;35187;Monterfil;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;499;1;0,1%;1;0,1%;0,0;0,0
+COMMUNE;35188;Montfort-sur-Meu;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;2495;7;0,3%;7;0,3%;0,0;0,0
+COMMUNE;35189;Montgermont;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1269;13;1,0%;8;0,6%;0,0;0,0
+COMMUNE;35190;Monthault;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;114;7;6,4%;5;4,3%;0,0;0,0
+COMMUNE;35191;Les Portes du Coglais;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;879;30;3,4%;23;2,6%;5,995;5,995
+COMMUNE;35192;Montreuil-des-Landes;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;91;7;7,7%;6;6,2%;0,0;0,0
+COMMUNE;35193;Montreuil-le-Gast;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;701;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35194;Montreuil-sous-Pérouse;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;381;0;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35195;Montreuil-sur-Ille;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;880;4;0,5%;1;0,1%;0,0;0,0
+COMMUNE;35196;Mordelles;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2875;9;0,3%;5;0,2%;0,0;0,0
+COMMUNE;35197;Mouazé;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;587;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35198;Moulins;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;256;14;5,5%;10;4,0%;5,90523;2,55255
+COMMUNE;35199;Moussé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;114;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35200;Moutiers;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;315;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35201;Muel;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;346;23;6,6%;15;4,3%;5,15312;5,15312
+COMMUNE;35202;La Noë-Blanche;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;397;13;3,1%;9;2,2%;3,0;3,0
+COMMUNE;35203;La Nouaye;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;113;2;1,3%;0;0,3%;0,0;0,0
+COMMUNE;35204;Nouvoitou;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1147;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35205;Noyal-sous-Bazouges;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;165;14;8,7%;8;4,7%;5,74328;5,74328
+COMMUNE;35206;Noyal-Châtillon-sur-Seiche;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2550;2;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35207;Noyal-sur-Vilaine;243500659;Communauté de communes Pays de Châteaugiron Communauté;35;Ille-et-Vilaine;53;Bretagne;2251;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35208;Orgères;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1739;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35210;Pacé;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;4172;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35211;Paimpont;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;740;34;4,6%;21;2,8%;3,0;3,0
+COMMUNE;35212;Pancé;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;468;3;0,6%;0;0,1%;0,0;0,0
+COMMUNE;35214;Parcé;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;242;4;1,7%;4;1,6%;0,0;0,0
+COMMUNE;35215;Parigné;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;466;2;0,4%;0;0,0%;0,0;0,0
+COMMUNE;35216;Parthenay-de-Bretagne;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;582;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35217;Le Pertre;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;533;5;0,9%;3;0,5%;0,0;0,0
+COMMUNE;35218;Le Petit-Fougeray;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;324;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35219;Pipriac;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;1524;50;3,2%;11;0,7%;14,01055;11,0869
+COMMUNE;35220;Piré-Chancé;243500659;Communauté de communes Pays de Châteaugiron Communauté;35;Ille-et-Vilaine;53;Bretagne;1148;13;1,2%;0;0,0%;0,0;0,0
+COMMUNE;35221;Pléchâtel;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;1066;21;2,0%;7;0,7%;10,600000000000001;10,600000000000001
+COMMUNE;35222;Pleine-Fougères;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;759;51;6,7%;39;5,2%;4,648140000000001;4,648140000000001
+COMMUNE;35223;Plélan-le-Grand;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;1595;26;1,6%;4;0,2%;0,0;0,0
+COMMUNE;35224;Plerguer;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1086;22;2,0%;11;1,0%;14,010000000000002;14,010000000000002
+COMMUNE;35225;Plesder;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;322;12;3,8%;5;1,6%;4,75;4,75
+COMMUNE;35226;Pleugueneuc;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;718;17;2,3%;5;0,7%;0,0;0,0
+COMMUNE;35227;Pleumeleuc;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;1292;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35228;Pleurtuit;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;2961;35;1,2%;12;0,4%;3,0;3,0
+COMMUNE;35229;Pocé-les-Bois;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;496;3;0,6%;2;0,4%;0,0;0,0
+COMMUNE;35230;Poilley;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;158;11;7,0%;6;3,8%;4,70376;4,70376
+COMMUNE;35231;Poligné;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;477;8;1,6%;6;1,2%;0,0;0,0
+COMMUNE;35232;Princé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;156;11;7,0%;3;2,1%;0,0;0,0
+COMMUNE;35233;Québriac;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;585;3;0,5%;1;0,1%;0,0;0,0
+COMMUNE;35234;Quédillac;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;489;21;4,3%;9;1,9%;5,918520000000001;0,0
+COMMUNE;35235;Rannée;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;441;8;1,9%;2;0,5%;0,0;0,0
+COMMUNE;35236;Redon;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;3648;135;3,7%;53;1,5%;20,0836;16,68768
+COMMUNE;35237;Renac;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;420;42;10,1%;28;6,7%;6,326320000000001;0,0
+COMMUNE;35238;Rennes;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;68225;1422;2,1%;771;1,1%;0,0;0,0
+COMMUNE;35239;Retiers;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;1701;50;2,9%;29;1,7%;21,45268;5,0949
+COMMUNE;35240;Le Rheu;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2973;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35241;La Richardais;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;1099;18;1,6%;11;1,0%;6,167110000000001;3,0
+COMMUNE;35242;Rimou;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;141;7;5,2%;4;3,1%;0,0;0,0
+COMMUNE;35243;Romagné;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;873;6;0,7%;0;0,0%;4,009;4,009
+COMMUNE;35244;Romazy;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;111;4;3,3%;0;0,1%;0,0;0,0
+COMMUNE;35245;Romillé;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1474;2;0,1%;1;0,1%;0,0;0,0
+COMMUNE;35246;Roz-Landrieux;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;522;15;2,8%;11;2,1%;8,398240000000001;8,398240000000001
+COMMUNE;35247;Roz-sur-Couesnon;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;452;17;3,6%;4;0,9%;2,57656;2,57656
+COMMUNE;35248;Sains;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;199;6;3,0%;0;0,1%;0,0;0,0
+COMMUNE;35249;Sainte-Anne-sur-Vilaine;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;419;36;8,6%;26;6,2%;0,0;0,0
+COMMUNE;35250;Saint-Armel;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;810;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35251;Saint-Aubin-d'Aubigné;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;1475;6;0,4%;2;0,1%;0,0;0,0
+COMMUNE;35252;Saint-Aubin-des-Landes;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;325;5;1,5%;2;0,7%;0,0;0,0
+COMMUNE;35253;Saint-Aubin-du-Cormier;243500774;Communauté de communes Liffré-Cormier Communauté;35;Ille-et-Vilaine;53;Bretagne;1257;4;0,3%;1;0,1%;2,4;2,4
+COMMUNE;35255;Saint-Benoît-des-Ondes;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;383;5;1,3%;0;0,0%;4,7481;4,7481
+COMMUNE;35256;Saint-Briac-sur-Mer;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;1024;22;2,1%;11;1,1%;16,24972;16,24972
+COMMUNE;35257;Maen Roch;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;1851;18;1,0%;13;0,7%;3,7984799999999996;0,0
+COMMUNE;35258;Saint-Brieuc-des-Iffs;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;121;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35259;Saint-Broladre;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;454;27;5,8%;18;4,0%;5,736720000000001;5,736720000000001
+COMMUNE;35260;Saint-Christophe-des-Bois;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;208;10;5,0%;10;5,0%;5,5200000000000005;5,5200000000000005
+COMMUNE;35261;Saint-Christophe-de-Valains;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;84;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35262;Sainte-Colombe;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;137;5;3,7%;0;0,0%;4,39296;4,39296
+COMMUNE;35263;Saint-Coulomb;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1237;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35264;Saint-Didier;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;696;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35265;Saint-Domineuc;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;927;12;1,3%;10;1,1%;4,0040000000000004;4,0040000000000004
+COMMUNE;35266;Saint-Erblon;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1180;5;0,4%;0;0,0%;0,0;0,0
+COMMUNE;35268;Saint-Ganton;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;181;10;5,5%;6;3,4%;0,0;0,0
+COMMUNE;35270;Saint-Georges-de-Gréhaigne;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;145;1;0,8%;1;0,7%;0,0;0,0
+COMMUNE;35271;Saint-Georges-de-Reintembault;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;571;73;12,8%;52;9,1%;26,696920000000002;13,126000000000001
+COMMUNE;35272;Saint-Germain-du-Pinel;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;325;4;1,4%;1;0,2%;0,0;0,0
+COMMUNE;35273;Saint-Germain-en-Coglès;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;770;8;1,1%;1;0,1%;0,0;0,0
+COMMUNE;35274;Saint-Germain-sur-Ille;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;359;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35275;Saint-Gilles;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1725;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35276;Saint-Gondran;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;221;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35277;Saint-Gonlay;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;141;3;2,2%;3;2,2%;3,0;3,0
+COMMUNE;35278;Saint-Grégoire;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;3640;23;0,6%;0;0,0%;0,0;0,0
+COMMUNE;35279;Saint-Guinoux;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;465;3;0,7%;3;0,7%;3,003;3,003
+COMMUNE;35280;Saint-Hilaire-des-Landes;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;417;8;1,9%;2;0,5%;0,0;0,0
+COMMUNE;35281;Saint-Jacques-de-la-Lande;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;4484;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35282;Rives-du-Couesnon;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;1104;15;1,4%;4;0,4%;0,0;0,0
+COMMUNE;35283;Saint-Jean-sur-Vilaine;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;487;3;0,5%;0;0,0%;0,0;0,0
+COMMUNE;35284;Saint-Jouan-des-Guérets;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1123;5;0,4%;0;0,0%;2,996;2,996
+COMMUNE;35285;Saint-Just;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;449;30;6,6%;14;3,2%;5,005;5,005
+COMMUNE;35286;Saint-Léger-des-Prés;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;100;3;2,7%;0;0,1%;0,0;0,0
+COMMUNE;35287;Saint-Lunaire;243500725;Communauté de communes Côte d'Émeraude;35;Ille-et-Vilaine;53;Bretagne;1207;15;1,2%;9;0,8%;9,419590000000001;2,55255
+COMMUNE;35288;Saint-Malo;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;18659;63;0,3%;19;0,1%;10,86354;3,0030000000000006
+COMMUNE;35289;Saint-Malo-de-Phily;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;429;10;2,4%;0;0,0%;6,0;6,0
+COMMUNE;35290;Saint-Malon-sur-Mel;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;213;9;4,4%;6;2,6%;3,996;3,996
+COMMUNE;35291;Saint-Marcan;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;186;5;2,7%;4;2,4%;4,0040000000000004;4,0040000000000004
+COMMUNE;35292;Saint-Marc-le-Blanc;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;658;17;2,5%;4;0,7%;6,93693;0,0
+COMMUNE;35294;Sainte-Marie;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;946;3;0,3%;2;0,2%;0,0;0,0
+COMMUNE;35295;Saint-Maugan;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;202;4;1,8%;1;0,5%;0,0;0,0
+COMMUNE;35296;Saint-Médard-sur-Ille;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;489;6;1,1%;2;0,3%;0,0;0,0
+COMMUNE;35297;Saint-Méen-le-Grand;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;1868;38;2,0%;35;1,9%;17,133900000000004;2,6100000000000003
+COMMUNE;35299;Saint-Méloir-des-Ondes;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;1774;15;0,9%;14;0,8%;4,0040000000000004;4,0040000000000004
+COMMUNE;35300;Saint-M'Hervé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;499;9;1,7%;7;1,5%;0,0;0,0
+COMMUNE;35302;Saint-Onen-la-Chapelle;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;372;6;1,7%;6;1,6%;0,0;0,0
+COMMUNE;35304;Saint-Ouen-des-Alleux;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;512;15;3,0%;15;3,0%;9,68;9,68
+COMMUNE;35305;Saint-Péran;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;159;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35306;Saint-Père-Marc-en-Poulet;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;935;6;0,6%;0;0,0%;4,994000000000001;4,994000000000001
+COMMUNE;35307;Saint-Pern;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;322;6;1,7%;3;0,9%;0,0;0,0
+COMMUNE;35308;Mesnil-Roc'h;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;1705;51;3,0%;10;0,6%;15,57528;11,013
+COMMUNE;35309;Saint-Rémy-du-Plain;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;302;13;4,2%;10;3,2%;5,957;5,957
+COMMUNE;35310;Saint-Sauveur-des-Landes;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;489;7;1,5%;6;1,2%;4,005;4,005
+COMMUNE;35311;Saint-Séglin;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;227;23;9,9%;2;0,8%;7,0;7,0
+COMMUNE;35312;Saint-Senoux;200043990;Communauté de communes Vallons de Haute-Bretagne Communauté;35;Ille-et-Vilaine;53;Bretagne;702;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35314;Saint-Suliac;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;427;6;1,4%;3;0,7%;5,76;5,76
+COMMUNE;35315;Saint-Sulpice-la-Forêt;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;561;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35316;Saint-Sulpice-des-Landes;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;310;5;1,5%;1;0,2%;3,995;3,995
+COMMUNE;35317;Saint-Symphorien;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;206;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35318;Saint-Thual;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;324;2;0,5%;0;0,1%;0,0;0,0
+COMMUNE;35319;Saint-Thurial;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;785;13;1,6%;6;0,7%;4,009;4,009
+COMMUNE;35320;Saint-Uniac;200038990;Communauté de communes de Saint-Méen Montauban;35;Ille-et-Vilaine;53;Bretagne;195;0;0,1%;0;0,1%;0,0;0,0
+COMMUNE;35321;Saulnières;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;286;1;0,3%;0;0,0%;0,0;0,0
+COMMUNE;35322;Le Sel-de-Bretagne;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;357;0;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35324;La Selle-en-Luitré;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;188;5;2,6%;0;0,0%;0,0;0,0
+COMMUNE;35325;La Selle-Guerchaise;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;56;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35326;Sens-de-Bretagne;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;906;11;1,2%;5;0,5%;0,0;0,0
+COMMUNE;35327;Servon-sur-Vilaine;243500659;Communauté de communes Pays de Châteaugiron Communauté;35;Ille-et-Vilaine;53;Bretagne;1435;1;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35328;Sixt-sur-Aff;243500741;Communauté d'agglomération Redon Agglomération;35;Ille-et-Vilaine;53;Bretagne;919;24;2,6%;13;1,4%;11,011000000000001;11,011000000000001
+COMMUNE;35329;Sougeal;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;236;19;7,9%;11;4,6%;4,0;4,0
+COMMUNE;35330;Taillis;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;350;0;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35331;Talensac;243500550;Communauté de communes Montfort Communauté;35;Ille-et-Vilaine;53;Bretagne;965;14;1,5%;10;1,0%;0,0;0,0
+COMMUNE;35332;Teillay;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;431;15;3,5%;14;3,1%;9,12988;0,0
+COMMUNE;35333;Le Theil-de-Bretagne;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;658;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35334;Thorigné-Fouillard;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2921;5;0,2%;5;0,2%;0,0;0,0
+COMMUNE;35335;Thourie;243500634;Communauté de communes Roche aux Fées Communauté;35;Ille-et-Vilaine;53;Bretagne;309;17;5,5%;11;3,5%;0,0;0,0
+COMMUNE;35336;Le Tiercent;200070688;Communauté de communes Couesnon Marches de Bretagne;35;Ille-et-Vilaine;53;Bretagne;85;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35337;Tinténiac;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;1433;14;1,0%;3;0,2%;7,082400000000001;0,0
+COMMUNE;35338;Torcé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;444;5;1,1%;1;0,1%;0,0;0,0
+COMMUNE;35339;Trans-la-Forêt;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;259;11;4,1%;4;1,6%;0,0;0,0
+COMMUNE;35340;Treffendel;243500618;Communauté de communes Brocéliande Communauté;35;Ille-et-Vilaine;53;Bretagne;477;8;1,7%;5;1,1%;0,0;0,0
+COMMUNE;35342;Trémeheuc;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;146;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35343;Tresbœuf;200070662;Communauté de communes Bretagne porte de Loire Communauté;35;Ille-et-Vilaine;53;Bretagne;462;17;3,8%;6;1,3%;7,63174;7,63174
+COMMUNE;35345;Trévérien;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;327;0;0,1%;0;0,0%;0,0;0,0
+COMMUNE;35346;Trimer;243500733;Communauté de communes Bretagne Romantique;35;Ille-et-Vilaine;53;Bretagne;68;3;5,0%;0;0,0%;0,0;0,0
+COMMUNE;35347;Val-d'Izé;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;982;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35350;Vergéal;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;269;5;1,8%;4;1,4%;0,0;0,0
+COMMUNE;35351;Le Verger;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;453;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35352;Vern-sur-Seiche;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;2986;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35353;Vezin-le-Coquet;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1798;5;0,3%;0;0,0%;5,0;5,0
+COMMUNE;35354;Vieux-Viel;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;132;7;5,5%;2;1,4%;0,0;0,0
+COMMUNE;35355;Vieux-Vy-sur-Couesnon;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;473;2;0,4%;0;0,1%;0,0;0,0
+COMMUNE;35356;Vignoc;243500667;Communauté de communes Val d'Ille-Aubigné;35;Ille-et-Vilaine;53;Bretagne;674;9;1,3%;6;0,9%;0,0;0,0
+COMMUNE;35357;Villamée;200072452;Communauté d'agglomération Fougères Agglomération;35;Ille-et-Vilaine;53;Bretagne;125;3;2,1%;2;1,8%;0,0;0,0
+COMMUNE;35358;La Ville-ès-Nonais;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;462;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;35359;Visseiche;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;302;10;3,3%;2;0,5%;4,624620000000001;0,0
+COMMUNE;35360;Vitré;200039022;Communauté d'agglomération Vitré Communauté;35;Ille-et-Vilaine;53;Bretagne;7012;89;1,3%;43;0,6%;0,0;0,0
+COMMUNE;35361;Le Vivier-sur-Mer;200070670;Communauté de communes du Pays de Dol et de la Baie du Mont Saint-Michel;35;Ille-et-Vilaine;53;Bretagne;433;3;0,6%;3;0,6%;0,0;0,0
+COMMUNE;35362;Le Tronchet;243500782;Communauté d'agglomération du Pays de Saint Malo Agglomération;35;Ille-et-Vilaine;53;Bretagne;442;9;1,9%;1;0,2%;0,0;0,0
+COMMUNE;35363;Pont-Péan;243500139;Rennes Métropole;35;Ille-et-Vilaine;53;Bretagne;1536;3;0,2%;0;0,0%;0,0;0,0
+COMMUNE;93001;Aubervilliers;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;17309;2448;14,1%;2236;12,9%;0,0;0,0
+COMMUNE;93005;Aulnay-sous-Bois;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;19304;1463;7,6%;995;5,2%;311,00089;176,63574
+COMMUNE;93006;Bagnolet;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;8627;688;8,0%;169;2,0%;25,368000000000002;0,0
+COMMUNE;93007;Le Blanc-Mesnil;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;12019;1662;13,8%;1166;9,7%;623,62687;317,97937
+COMMUNE;93008;Bobigny;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;11279;2674;23,7%;2228;19,8%;306,79526;75,1898
+COMMUNE;93010;Bondy;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;10843;767;7,1%;327;3,0%;247,60757;154,31175000000002
+COMMUNE;93013;Le Bourget;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;3983;520;13,1%;419;10,5%;24,164520000000003;0,0
+COMMUNE;93014;Clichy-sous-Bois;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;4873;1170;24,0%;1036;21,3%;133,57836;81,31083000000001
+COMMUNE;93015;Coubron;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;1882;43;2,3%;43;2,3%;0,0;0,0
+COMMUNE;93027;La Courneuve;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;6935;1405;20,3%;1377;19,9%;5,88;5,88
+COMMUNE;93029;Drancy;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;19731;2804;14,2%;1905;9,7%;558,87905;164,38063
+COMMUNE;93030;Dugny;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;2880;364;12,6%;334;11,6%;6,744000000000001;0,0
+COMMUNE;93031;Épinay-sur-Seine;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;14003;1998;14,3%;1696;12,1%;53,32002;4,29828
+COMMUNE;93032;Gagny;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;12332;148;1,2%;59;0,5%;38,58406;0,0
+COMMUNE;93033;Gournay-sur-Marne;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;2552;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;93039;L'Île-Saint-Denis;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;1106;20;1,8%;7;0,7%;0,0;0,0
+COMMUNE;93045;Les Lilas;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7235;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;93046;Livry-Gargan;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;14340;580;4,0%;447;3,1%;53,505680000000005;6,79
+COMMUNE;93047;Montfermeil;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7181;498;6,9%;353;4,9%;131,81875;82,43639
+COMMUNE;93048;Montreuil;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;30633;1183;3,9%;618;2,0%;25,0135;4,75
+COMMUNE;93049;Neuilly-Plaisance;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7826;0;0,0%;0;0,0%;0,0;0,0
+COMMUNE;93050;Neuilly-sur-Marne;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7985;66;0,8%;31;0,4%;4,8258600000000005;0,0
+COMMUNE;93051;Noisy-le-Grand;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;20529;183;0,9%;98;0,5%;7,216;7,216
+COMMUNE;93053;Noisy-le-Sec;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;10849;1153;10,6%;881;8,1%;39,6712;17,21535
+COMMUNE;93055;Pantin;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;14772;1203;8,1%;788;5,3%;0,0;0,0
+COMMUNE;93057;Les Pavillons-sous-Bois;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7857;207;2,6%;119;1,5%;40,980290000000004;0,0
+COMMUNE;93059;Pierrefitte-sur-Seine;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;6484;1393;21,5%;1175;18,1%;325,65781000000004;148,31817
+COMMUNE;93061;Le Pré-Saint-Gervais;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;4603;232;5,0%;142;3,1%;0,0;0,0
+COMMUNE;93062;Le Raincy;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;5761;44;0,8%;0;0,0%;0,0;0,0
+COMMUNE;93063;Romainville;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;7906;169;2,1%;65;0,8%;27,024790000000003;13,333090000000002
+COMMUNE;93064;Rosny-sous-Bois;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;15398;989;6,4%;570;3,7%;36,24516;15,5144
+COMMUNE;93066;Saint-Denis;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;21705;2733;12,6%;2516;11,6%;128,58815;17,819580000000002
+COMMUNE;93070;Saint-Ouen-sur-Seine;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;12728;875;6,9%;515;4,0%;2,55255;2,55255
+COMMUNE;93071;Sevran;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;11433;1116;9,8%;766;6,7%;255,47939;147,7919
+COMMUNE;93072;Stains;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;10204;2664;26,1%;2531;24,8%;352,52941000000004;160,83446
+COMMUNE;93073;Tremblay-en-France;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;9325;70;0,7%;17;0,2%;0,0;0,0
+COMMUNE;93074;Vaujours;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;2411;54;2,2%;0;0,0%;12,580200000000001;12,580200000000001
+COMMUNE;93077;Villemomble;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;9595;176;1,8%;88;0,9%;13,508959999999998;4,8
+COMMUNE;93078;Villepinte;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;8931;526;5,9%;270;3,0%;109,28938000000001;52,887080000000005
+COMMUNE;93079;Villetaneuse;200054781;Métropole du Grand Paris;93;Seine-Saint-Denis;11;Ile-de-France;2370;444;18,8%;440;18,5%;0,0;0,0
+DEPARTEMENT;so;so ;so;so ;35;Ille-et-Vilaine;53;Bretagne;390384;5385;1,4%;2780;0,7%;967,7513200000001;697,3624100000001
+DEPARTEMENT;so;so ;so;so ;93;Seine-Saint-Denis;11;Ile-de-France;407715;34729;8,5%;26430;6,5%;3902,03568;1674,82557
